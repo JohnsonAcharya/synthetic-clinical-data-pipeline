@@ -1,0 +1,18 @@
+# R and local editor state
+.Rproj.user/
+.Rhistory
+.RData
+.Rdata
+.Ruserdata
+.httr-oauth
+.DS_Store
+.quarto/
+
+# Temporary files, local settings, and Python bytecode
+*.tmp
+*.log
+.env
+__pycache__/
+
+# Generated HTML previews in output; the versioned reports/ HTML is tracked
+/output/**/*.html
