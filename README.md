@@ -1,4 +1,4 @@
-# ABC101 clinical R study
+# Synthetic Clinical Data Pipeline (ABC101)
 
 This project builds a fully synthetic, 500-subject, three-arm type 2 diabetes study from raw CSVs through SDTM, ADaM, and safety tables, a listing, and a figure. The three treatment labels are Placebo, Drug 10 mg, and Drug 20 mg. All source data are generated locally; no patient data or external data files are needed.
 
@@ -26,7 +26,7 @@ The versioned [synthetic Shiny review app](app/ABC101_synthetic_review_v1.0/app.
 
 ## Run from a fresh checkout
 
-From the `clinical-r-study` directory, run:
+From the `synthetic-clinical-data-pipeline` directory, run:
 
 ```sh
 Rscript run_all.R
